@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ami:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.swh.ami.war">
+      <element id="artifact" artifact-name="ami:war exploded" />
+    </root>
+  </artifact>
+</component>
