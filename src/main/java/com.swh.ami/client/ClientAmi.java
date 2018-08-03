@@ -15,6 +15,7 @@ public class ClientAmi {
         try {
             IHelloSerice helloSerice = (IHelloSerice) Naming.lookup("rmi://127.0.0.1/Hello");
             helloSerice.sayHello("bw");
+
         } catch (NotBoundException e) {
             e.printStackTrace();
         } catch (MalformedURLException e) {
