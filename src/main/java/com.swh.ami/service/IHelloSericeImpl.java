@@ -7,6 +7,7 @@ public class IHelloSericeImpl extends UnicastRemoteObject implements IHelloSeric
 
 
     protected IHelloSericeImpl() throws RemoteException {
+        super();
     }
 
     public void sayHello(String name) throws RemoteException{
