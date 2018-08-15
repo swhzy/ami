@@ -10,6 +10,7 @@
           <element id="archive" name="com.swh.ami-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ami" />
           </element>
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
         </element>
       </element>
       <element id="directory" name="META-INF">
